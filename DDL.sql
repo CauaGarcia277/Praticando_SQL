@@ -51,3 +51,28 @@ constraint fk_transacao_contaorigem foreign key (idcontaorigem) references Conta
 constraint fk_transacao_contadestino foreign key (idContaDestino) references Conta(idConta) on delete cascade on update cascade
 );
 
+
+##Usando Alter
+
+## Adicionando a coluna RG
+ALTER TABLE Cliente add column RGS char(11);
+
+##Deletando a coluna RG
+ALTER TABLE Cliente drop column RGS;
+
+## Adicionando campo RG
+ALTER TABLE Cliente add column RGS char(11);
+
+##Adicionando unique
+ALTER TABLE Cliente modify column RGS char(11) unique;
+
+##Mudando o nome da coluna
+ALTER TABLE Cliente change column RGS RG char(11) unique;
+
+##Comandos drops
+
+##Deletando tabela
+drop table Investimento;
+
+#Deletando o banco de dados
+drop database treino_select;
