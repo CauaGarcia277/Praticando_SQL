@@ -48,4 +48,3 @@ INSERT INTO transacao (idContaOrigem, idContaDestino, valor, data_realizada) VAL
 (8, 9, 120.75, '2024-02-03'),
 (9, 10, 600.00, '2024-02-04'),
 (10, 6, 1000.00, '2024-02-05');
-
