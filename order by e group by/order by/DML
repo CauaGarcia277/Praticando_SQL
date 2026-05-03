@@ -1,0 +1,68 @@
+##1
+
+INSERT INTO categorias VALUES (1, 'O Rei Leão', 'Família');
+INSERT INTO categorias VALUES (2, 'Toy Story', 'Família');
+INSERT INTO categorias VALUES (3, 'Frozen', 'Família');
+INSERT INTO categorias VALUES (4, 'Procurando Nemo', 'Família');
+
+INSERT INTO categorias VALUES (5, 'It: A Coisa', 'Terror');
+INSERT INTO categorias VALUES (6, 'Invocação do Mal', 'Terror');
+INSERT INTO categorias VALUES (7, 'O Iluminado', 'Terror');
+INSERT INTO categorias VALUES (8, 'Halloween', 'Terror');
+INSERT INTO categorias VALUES (9, 'A Freira', 'Terror');
+
+INSERT INTO categorias VALUES (10, 'Se Beber Não Case', 'Comédia');
+INSERT INTO categorias VALUES (11, 'As Branquelas', 'Comédia');
+INSERT INTO categorias VALUES (12, 'Gente Grande', 'Comédia');
+INSERT INTO categorias VALUES (13, 'Superbad', 'Comédia');
+INSERT INTO categorias VALUES (14, 'Debi & Lóide', 'Comédia');
+
+INSERT INTO categorias VALUES (15, 'Vingadores', 'Ação');
+INSERT INTO categorias VALUES (16, 'John Wick', 'Ação');
+INSERT INTO categorias VALUES (17, 'Velozes e Furiosos', 'Ação');
+INSERT INTO categorias VALUES (18, 'Mad Max: Estrada da Fúria', 'Ação');
+
+INSERT INTO categorias VALUES (19, 'Titanic', 'Romance');
+INSERT INTO categorias VALUES (20, 'A Culpa é das Estrelas', 'Romance');
+INSERT INTO categorias VALUES (21, 'Diário de uma Paixão', 'Romance');
+INSERT INTO categorias VALUES (22, 'Antes do Amanhecer', 'Romance');
+
+INSERT INTO categorias VALUES (23, 'Interestelar', 'Ficção Científica');
+INSERT INTO categorias VALUES (24, 'Matrix', 'Ficção Científica');
+INSERT INTO categorias VALUES (25, 'Blade Runner 2049', 'Ficção Científica');
+INSERT INTO categorias VALUES (26, 'Star Wars: Uma Nova Esperança', 'Ficção Científica');
+
+INSERT INTO categorias VALUES (27, 'Shrek', 'Animação');
+INSERT INTO categorias VALUES (28, 'Kung Fu Panda', 'Animação');
+INSERT INTO categorias VALUES (29, 'Madagascar', 'Animação');
+INSERT INTO categorias VALUES (30, 'Divertida Mente', 'Animação');
+
+##2
+DELETE from categorias;
+
+INSERT INTO categorias VALUES (31, 'Corra!', 'Terror', '2024-01-10');
+INSERT INTO categorias VALUES (32, 'Hereditário', 'Terror', '2024-02-14');
+INSERT INTO categorias VALUES (33, 'Midsommar', 'Terror', '2024-03-20');
+
+INSERT INTO categorias VALUES (34, 'Os Caça-Fantasmas', 'Comédia', '2024-01-05');
+INSERT INTO categorias VALUES (35, 'Click', 'Comédia', '2024-02-10');
+INSERT INTO categorias VALUES (36, 'Todo Poderoso', 'Comédia', '2024-03-15');
+
+INSERT INTO categorias VALUES (37, 'O Exterminador do Futuro', 'Ação', '2024-01-12');
+INSERT INTO categorias VALUES (38, 'Missão Impossível', 'Ação', '2024-02-18');
+INSERT INTO categorias VALUES (39, 'Duro de Matar', 'Ação', '2024-03-25');
+
+INSERT INTO categorias VALUES (40, 'Up: Altas Aventuras', 'Família', '2024-01-08');
+INSERT INTO categorias VALUES (41, 'Encanto', 'Família', '2024-02-22');
+INSERT INTO categorias VALUES (42, 'Moana', 'Família', '2024-03-30');
+
+INSERT INTO categorias VALUES (43, 'O Quarto de Jack', 'Drama', '2024-01-18');
+INSERT INTO categorias VALUES (44, 'Clube da Luta', 'Drama', '2024-02-28');
+INSERT INTO categorias VALUES (45, 'Forrest Gump', 'Drama', '2024-03-10');
+
+INSERT INTO categorias VALUES (46, 'Avatar', 'Ficção Científica', '2024-01-25');
+INSERT INTO categorias VALUES (47, 'Duna', 'Ficção Científica', '2024-02-05');
+INSERT INTO categorias VALUES (48, 'Ex Machina', 'Ficção Científica', '2024-03-18');
+
+INSERT INTO categorias VALUES (49, 'Zootopia', 'Animação', '2024-01-28');
+INSERT INTO categorias VALUES (50, 'O Rei Leão (2019)', 'Animação', '2024-02-12');
